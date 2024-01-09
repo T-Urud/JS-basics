@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+nav{
+  background: rgb(31, 29, 29);
+  display: grid;
+  grid-template-columns: 35% 65%;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  color: yellow;
+  position: fixed;
+  transition: 0.3s;
+}
+
+h2{
+  padding: 0 20px;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  justify-content: center;
+}
+li{
+  align-items: center;
+  margin: 0 auto;
+}
+
+img{
+  max-width: 100%;
+}
